@@ -4,8 +4,8 @@ import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'Sikka Mall of Expressway',
-  description: 'Sikka Mall of Expressway',
+  title: 'Gokul Enclave',
+  description: 'Gokul Enclave',
 };
 
 export default function RootLayout({

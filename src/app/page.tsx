@@ -3,20 +3,8 @@ import ScrollToTop from '@/components/scroll-to-top';
 
 import AboutUs from '@/components/sections/about-us';
 
-import dynamic from 'next/dynamic';
-import Location from '@/components/sections/location';
-
-// Dynamically import FloorPlansGallery component
-const FloorPlansGallery = dynamic(
-  () => import('@/components/sections/floor-plans-gallery'),
-  {
-    loading: () => (
-      <div className="h-[600px] flex items-center justify-center">
-        Loading...
-      </div>
-    ),
-  }
-);
+import Projects from '@/components/sections/projects';
+import EpicentreSection from '@/components/sections/EpicentreSection';
 
 export default function Home() {
   return (
@@ -25,9 +13,8 @@ export default function Home() {
         {/*  */}
         <Hero />
         <AboutUs />
-        <FloorPlansGallery />
-
-        <Location />
+        <Projects />
+        <EpicentreSection />
         <ScrollToTop />
       </main>
     </>

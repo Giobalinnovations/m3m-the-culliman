@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import animate from 'tailwindcss-animate';
 
 export default {
   darkMode: ['class'],
@@ -28,19 +29,19 @@ export default {
           foreground: 'hsl(var(--popover-foreground))',
         },
         primary: {
-          DEFAULT: '#4CAF50',
+          DEFAULT: '#1E3A8A',
           foreground: '#FFFFFF',
         },
         secondary: {
-          DEFAULT: '#2E7D32',
+          DEFAULT: '#475569',
           foreground: '#FFFFFF',
         },
         muted: {
-          DEFAULT: '#A5D6A7',
-          foreground: '#000000',
+          DEFAULT: '#94A3B8',
+          foreground: '#1E293B',
         },
         accent: {
-          DEFAULT: '#FFEB3B',
+          DEFAULT: '#C8A456',
           foreground: '#000000',
         },
         destructive: {
@@ -51,11 +52,11 @@ export default {
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
         chart: {
-          '1': 'hsl(var(--chart-1))',
-          '2': 'hsl(var(--chart-2))',
-          '3': 'hsl(var(--chart-3))',
-          '4': 'hsl(var(--chart-4))',
-          '5': 'hsl(var(--chart-5))',
+          '1': '#1E3A8A',
+          '2': '#475569',
+          '3': '#C8A456',
+          '4': '#334155',
+          '5': '#94A3B8',
         },
       },
       borderRadius: {
@@ -87,5 +88,5 @@ export default {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [animate],
 } satisfies Config;

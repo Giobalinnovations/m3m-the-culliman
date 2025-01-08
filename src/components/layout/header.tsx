@@ -61,7 +61,7 @@ export default function Header() {
             width={110}
             height={110}
           /> */}
-          Sikka Mall of Expressway
+          Gokul Enclave
         </Link>
 
         {/* Desktop Navigation */}
