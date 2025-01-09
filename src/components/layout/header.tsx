@@ -16,7 +16,7 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
-import { Menu, Phone } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -41,7 +41,6 @@ const navigationItems: {
     title: 'Legacy',
     href: '#legacy',
   },
-
   {
     title: 'Key Facts',
     href: '#key-facts',
@@ -63,13 +62,12 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-white shadow-sm">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="font-bold text-xl">
-          {/* <Image
-            src="/m3m-logo.png"
-            alt="IRIS BROADWAY"
-            width={110}
-            height={110}
-          /> */}
-          M3M Cullinan
+          <Image
+            src="/m3m-culliman.jpg"
+            alt="M3M The Culliman"
+            width={150}
+            height={150}
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -119,18 +117,6 @@ export default function Header() {
               ))}
             </NavigationMenuList>
           </NavigationMenu>
-
-          <Button
-            variant="outline"
-            size="sm"
-            className="hidden md:flex border-gray-300 text-gray-800 hover:bg-gray-100"
-            asChild
-          >
-            <Link href="#hero">
-              <Phone className="mr-2 h-4 w-4" />
-              Contact Us
-            </Link>
-          </Button>
         </div>
 
         {/* Mobile Navigation */}
@@ -189,14 +175,6 @@ export default function Header() {
                   )}
                 </div>
               ))}
-              <Button
-                className="w-full mt-8 text-gray-800 hover:bg-gray-100 border-gray-300"
-                variant="outline"
-                size="lg"
-              >
-                <Phone className="mr-2 h-5 w-5" />
-                Contact Us
-              </Button>
             </nav>
           </SheetContent>
         </Sheet>
