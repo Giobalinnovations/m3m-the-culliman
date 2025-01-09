@@ -51,7 +51,7 @@ export default function Terms() {
           className="prose dark:prose-invert max-w-none"
         >
           <p>
-            Welcome to Gokul Enclave. By accessing our website and using our
+            Welcome to M3M Cullinan. By accessing our website and using our
             services, you agree to be bound by these Terms and Conditions.
           </p>
         </motion.div>
@@ -100,7 +100,7 @@ export default function Terms() {
           <h2 className="text-2xl font-semibold">Intellectual Property</h2>
           <p className="text-muted-foreground">
             All content on this website, including images, text, designs, and
-            logos, is the property of Gokul Enclave and is protected by
+            logos, is the property of M3M Cullinan and is protected by
             intellectual property laws.
           </p>
         </motion.div>
@@ -109,7 +109,7 @@ export default function Terms() {
         <motion.div variants={itemVariants} className="space-y-4">
           <h2 className="text-2xl font-semibold">Limitation of Liability</h2>
           <p className="text-muted-foreground">
-            Gokul Enclave shall not be liable for any indirect, incidental,
+            M3M Cullinan shall not be liable for any indirect, incidental,
             special, consequential, or punitive damages resulting from your use
             of our services.
           </p>

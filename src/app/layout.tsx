@@ -4,8 +4,8 @@ import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'Gokul Enclave',
-  description: 'Gokul Enclave',
+  title: 'M3M Cullinan',
+  description: 'M3M Cullinan',
 };
 
 export default function RootLayout({

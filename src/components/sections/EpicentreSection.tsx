@@ -116,7 +116,7 @@ export default function EpicentreSection() {
             HIGHLIGHTS
           </h2>
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto">
-            Discover the exceptional features that make Gokul Enclave a premier
+            Discover the exceptional features that make M3M Cullinan a premier
             choice for luxury living
           </p>
         </motion.div>

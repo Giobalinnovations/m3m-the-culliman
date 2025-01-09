@@ -61,7 +61,7 @@ export default function Header() {
             width={110}
             height={110}
           /> */}
-          Gokul Enclave
+          M3M Cullinan
         </Link>
 
         {/* Desktop Navigation */}

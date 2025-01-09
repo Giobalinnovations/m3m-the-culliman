@@ -29,20 +29,20 @@ export default {
           foreground: 'hsl(var(--popover-foreground))',
         },
         primary: {
-          DEFAULT: '#1E3A8A',
+          DEFAULT: '#2C3E50',
           foreground: '#FFFFFF',
         },
         secondary: {
-          DEFAULT: '#475569',
+          DEFAULT: '#E74C3C',
           foreground: '#FFFFFF',
         },
         muted: {
-          DEFAULT: '#94A3B8',
-          foreground: '#1E293B',
+          DEFAULT: '#95A5A6',
+          foreground: '#2C3E50',
         },
         accent: {
-          DEFAULT: '#C8A456',
-          foreground: '#000000',
+          DEFAULT: '#3498DB',
+          foreground: '#FFFFFF',
         },
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
@@ -52,11 +52,11 @@ export default {
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
         chart: {
-          '1': '#1E3A8A',
-          '2': '#475569',
-          '3': '#C8A456',
-          '4': '#334155',
-          '5': '#94A3B8',
+          '1': '#2C3E50',
+          '2': '#E74C3C',
+          '3': '#3498DB',
+          '4': '#27AE60',
+          '5': '#F1C40F',
         },
       },
       borderRadius: {
