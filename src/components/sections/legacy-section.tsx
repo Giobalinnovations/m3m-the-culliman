@@ -27,15 +27,27 @@ interface MilestoneCardProps {
 const MilestoneCard = ({ number, label, icon: Icon }: MilestoneCardProps) => (
   <motion.div
     variants={fadeIn}
-    className="relative p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 hover:border-primary/40 transition-all duration-300 group"
+    className="relative p-4 sm:p-6 md:p-8 rounded-2xl bg-white/5 backdrop-blur-sm
+    border border-white/10 hover:border-primary/40 transition-all duration-300 group"
   >
     <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent rounded-2xl" />
-    <div className="relative text-center space-y-4">
-      <div className="mx-auto w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
-        <Icon className="w-6 h-6 text-primary" />
+    <div className="relative text-center space-y-3 md:space-y-4">
+      <div
+        className="mx-auto w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-primary/10
+      flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
+      >
+        <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
       </div>
-      <h4 className="text-3xl md:text-4xl font-bold text-white">{number}</h4>
-      <p className="text-sm uppercase tracking-wider text-gray-300 group-hover:text-white transition-colors duration-300">
+      <h4
+        className="text-2xl sm:text-3xl md:text-4xl font-bold text-white
+      group-hover:text-primary transition-colors duration-300"
+      >
+        {number}
+      </h4>
+      <p
+        className="text-xs sm:text-sm uppercase tracking-wider text-gray-300
+      group-hover:text-white transition-colors duration-300 px-2"
+      >
         {label}
       </p>
     </div>
@@ -46,7 +58,8 @@ export default function LegacySection() {
   return (
     <Section
       id="legacy"
-      className="relative py-24 overflow-hidden bg-gradient-to-b from-black to-gray-900"
+      className="relative py-12 sm:py-16 md:py-24 overflow-hidden
+      bg-gradient-to-b from-black to-gray-900"
     >
       {/* Decorative Elements */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(180,151,90,0.15),transparent_50%)]" />
@@ -62,17 +75,20 @@ export default function LegacySection() {
         {/* Header */}
         <motion.div
           variants={fadeIn}
-          className="text-center max-w-3xl mx-auto mb-16"
+          className="text-center max-w-3xl mx-auto mb-8 sm:mb-12 md:mb-16"
         >
-          <div className="inline-flex items-center justify-center gap-3 mb-6 px-6 py-3 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-sm">
-            <span className="text-sm font-semibold uppercase tracking-wider text-primary">
+          <div
+            className="inline-flex items-center justify-center gap-3 mb-4 sm:mb-6
+          px-4 sm:px-6 py-2 sm:py-3 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-sm"
+          >
+            <span className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-primary">
               The Legacy
             </span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-8 text-white">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-4 sm:mb-6 md:mb-8 text-white">
             Milestones Over A Decade
           </h2>
-          <p className="text-lg text-gray-300">
+          <p className="text-base sm:text-lg text-gray-300 px-4">
             Our Expertise, Your Joy - Building Excellence Since Inception
           </p>
         </motion.div>
@@ -80,7 +96,7 @@ export default function LegacySection() {
         {/* Milestones Grid */}
         <motion.div
           variants={fadeIn}
-          className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6"
         >
           <MilestoneCard
             icon={Building2}
@@ -105,8 +121,11 @@ export default function LegacySection() {
         </motion.div>
 
         {/* Bottom Content */}
-        <motion.div variants={fadeIn} className="text-center mt-16">
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+        <motion.div
+          variants={fadeIn}
+          className="text-center mt-8 sm:mt-12 md:mt-16"
+        >
+          <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto px-4">
             M3M Group has established itself as one of India&apos;s
             fastest-growing real estate developers, with a focus on delivering
             premium residential and commercial spaces.
