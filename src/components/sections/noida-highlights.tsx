@@ -76,7 +76,10 @@ const HighlightCard = ({
 
 export default function NoidaHighlights() {
   return (
-    <Section className="relative py-24 overflow-hidden bg-gradient-to-b from-black to-gray-900">
+    <Section
+      id="noida-highlights"
+      className="relative py-24 overflow-hidden bg-gradient-to-b from-black to-gray-900"
+    >
       {/* Decorative Elements */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(180,151,90,0.15),transparent_50%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(180,151,90,0.15),transparent_50%)]" />

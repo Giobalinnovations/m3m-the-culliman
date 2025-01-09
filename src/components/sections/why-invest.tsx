@@ -66,7 +66,10 @@ const InvestmentPoint = ({
 
 export default function WhyInvest() {
   return (
-    <Section className="relative py-24 overflow-hidden bg-gradient-to-b from-gray-50 to-white">
+    <Section
+      id="why-invest"
+      className="relative py-24 overflow-hidden bg-gradient-to-b from-gray-50 to-white"
+    >
       {/* Decorative Elements */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
       <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(180,151,90,0.05)_1px,transparent_1px)] bg-[length:40px_40px]" />

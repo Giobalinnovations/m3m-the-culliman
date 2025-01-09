@@ -38,13 +38,21 @@ const navigationItems: {
     href: '#about',
   },
   {
-    title: 'Floor Plans',
-    href: '#floor-plans',
+    title: 'Legacy',
+    href: '#legacy',
   },
 
   {
-    title: 'Location',
-    href: '#location',
+    title: 'Key Facts',
+    href: '#key-facts',
+  },
+  {
+    title: 'Noida Highlights',
+    href: '#noida-highlights',
+  },
+  {
+    title: 'Why Invest',
+    href: '#why-invest',
   },
 ];
 

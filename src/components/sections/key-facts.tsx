@@ -76,7 +76,10 @@ const FactCard = ({
 
 export default function KeyFactsSection() {
   return (
-    <Section className="relative py-24 overflow-hidden bg-gradient-to-b from-gray-900 to-black">
+    <Section
+      id="key-facts"
+      className="relative py-24 overflow-hidden bg-gradient-to-b from-gray-900 to-black"
+    >
       {/* Decorative Elements */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.05),transparent_50%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(255,255,255,0.05),transparent_50%)]" />
